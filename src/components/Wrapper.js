@@ -4,9 +4,5 @@ import { MainCard } from './MainCard';
 import { NavBar } from './NavBar';
 
 export const Wrapper = () => {
-	return (
-		<div id="outer-container" id="page-wrap">
-			<MainCard />
-		</div>
-	);
+	return <div></div>;
 };
