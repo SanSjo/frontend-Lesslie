@@ -16,7 +16,7 @@ import SideNav, {
 } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
-import '../styles/main-card.css';
+import '../styles/sidenav.css';
 
 export const Sidenav = () => {
 	return (
@@ -30,18 +30,20 @@ export const Sidenav = () => {
 				outerContainerId={'outer-container'}
 				customBurgerIcon={<img src={Burger} />}
 			>
-				<a id="home" className="menu-item" href="/">
-					Home
-				</a>
-				<a id="about" className="menu-item" href="/about">
-					About
-				</a>
-				<a id="contact" className="menu-item" href="/contact">
-					Contact
-				</a>
-				<a className="menu-item--small" href="">
-					Settings
-				</a>
+				<h1 id="home" className="menu-item-header" href="/">
+					Mitt Lesslie Cloud
+				</h1>
+				<div className="menu-item-container">
+					<p id="about" className="menu-item" href="/about">
+						Kom igång
+					</p>
+					<p id="contact" className="menu-item" href="/contact">
+						Guider
+					</p>
+					<p className="menu-item--small" href="">
+						Settings
+					</p>
+				</div>
 			</Menu>{' '}
 		</>
 	);

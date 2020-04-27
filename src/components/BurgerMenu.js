@@ -17,11 +17,7 @@ export const BurgerMenu = () => {
 
 export default BurgerMenu;
 
-const Span = styled.span`
-	&:hover {
-		background-color: green;
-	}
-`;
+const Span = styled.span``;
 const Burger1 = styled.span`
 	position: absolute;
 	height: 20%;
@@ -87,6 +83,6 @@ const BurgerContainer = styled.div`
 	width: 36px;
 	height: 20px;
 	left: 36px;
-	top: 5px;
+	bottom: 20px;
 	z-index: 1000;
 `;

@@ -15,7 +15,7 @@ const Nav = styled.div`
 	width: 100%;
 	background-color: white;
 	margin-top: 0;
-	height: 9%;
+	height: 6%;
 	display: flex;
 	align-items: center;
 `;

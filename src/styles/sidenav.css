@@ -1,0 +1,24 @@
+.sidebar {
+	background-color: #354052;
+	width: 200px;
+	max-width: 260px;
+}
+
+.menu-item-header {
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+}
+
+.menu-item {
+	font-size: 18px;
+	color: white;
+	width: 100%;
+}
+
+.menu-item-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding: 20px;
+}
