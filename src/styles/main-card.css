@@ -33,24 +33,23 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 200px;
+	width: 100%;
 }
 
 .cardbody-left {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	width: 100%;
 }
 
 .header {
 	font-size: 30px;
-	width: 400px;
 }
 
 .card-text {
-	font-size: 14px;
-	width: 300px;
+	font-size: 18px;
 }
 
 .cardbody-container {
@@ -60,7 +59,7 @@
 }
 
 .cardbody {
-	height: 210px;
+	height: 240px;
 	width: 350px;
 	display: flex;
 	flex-direction: column;
@@ -82,7 +81,7 @@
 	width: 270px;
 	border-color: #36999f;
 	color: white;
-	font-weight: bold;
+	font-size: 18px;
 }
 
 .cardbody-btn:hover {
@@ -122,6 +121,12 @@
 
 .cardbody-text {
 	margin-top: 20%;
+	font-size: 18px;
+}
+
+span {
+	font-weight: bold;
+	color: darkcyan;
 }
 
 .cardbody-mobile {

@@ -9,6 +9,7 @@ import { Wrapper } from './components/Wrapper';
 function App() {
 	return (
 		<div id="outer-container">
+			<Sidenav />
 			<MainCard />
 		</div>
 	);

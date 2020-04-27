@@ -23,7 +23,7 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -36,6 +36,6 @@ const Header = styled.h2`
 `;
 
 const Text = styled.p`
-	font-size: 12px;
+	font-size: 18px;
 	margin: 0;
 `;

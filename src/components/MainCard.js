@@ -24,7 +24,7 @@ export const MainCard = () => {
 						<div className="cardbody-left">
 							<h1 className="header">Välkommen till Lesslie Cloud</h1>
 							<p className="card-text">
-								Kom igång direkt med <strong>två</strong> enkla steg!
+								Kom igång direkt med <span>två</span> enkla steg!
 							</p>
 						</div>
 					</div>
