@@ -1,56 +1,39 @@
 import React, { useState } from 'react';
-import {
-	Collapse,
-	Navbar,
-	NavbarToggler,
-	NavbarBrand,
-	Nav,
-	NavItem,
-	NavLink,
-	UncontrolledDropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
-	NavbarText
-} from 'reactstrap';
-import { Sidenav } from './Sidenav';
+
+import BurgerMenu from './BurgerMenu';
+import styled from 'styled-components';
 
 export const NavBar = () => {
-	const [isOpen, setIsOpen] = useState(false);
-
-	const toggle = () => setIsOpen(!isOpen);
-
 	return (
-		<div>
-			<Sidenav />
-			<Navbar color="light" light expand="md">
-				<NavbarBrand href="/">reactstrap</NavbarBrand>
-				<NavbarToggler onClick={toggle} />
-				<Collapse isOpen={isOpen} navbar>
-					<Nav className="mr-auto" navbar>
-						<NavItem>
-							<NavLink href="/components/">Components</NavLink>
-						</NavItem>
-						<NavItem>
-							<NavLink href="https://github.com/reactstrap/reactstrap">
-								GitHub
-							</NavLink>
-						</NavItem>
-						<UncontrolledDropdown nav inNavbar>
-							<DropdownToggle nav caret>
-								Options
-							</DropdownToggle>
-							<DropdownMenu right>
-								<DropdownItem>Option 1</DropdownItem>
-								<DropdownItem>Option 2</DropdownItem>
-								<DropdownItem divider />
-								<DropdownItem>Reset</DropdownItem>
-							</DropdownMenu>
-						</UncontrolledDropdown>
-					</Nav>
-					<NavbarText>Simple Text</NavbarText>
-				</Collapse>
-			</Navbar>
-		</div>
+		<Nav className="navbar">
+			<BurgerMenu />
+		</Nav>
 	);
 };
+
+const Nav = styled.div`
+	width: 100%;
+	background-color: white;
+	margin-top: 0;
+	height: 9%;
+	display: flex;
+	align-items: center;
+`;
+
+// <Navbar
+// 			id="outer-container"
+// 			id="page-wrap"
+// 			color="white"
+// 			light
+// 			expand="md"
+// 		>
+// 			<NavbarBrand>
+// 				<img src={BurgerMenu} />
+// 			</NavbarBrand>
+// 			<NavbarToggler onClick={toggle} />
+// 			<Collapse isOpen={isOpen} navbar>
+// 				<Nav className="mr-auto" navbar></Nav>
+// 				<NavbarText>Simple Text</NavbarText>
+// 			</Collapse>
+// 		</Navbar>
+// 	</div>

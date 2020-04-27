@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+
 import '../styles/main-card.css';
 
 export const Cardbody = props => {
@@ -9,7 +9,9 @@ export const Cardbody = props => {
 				<h4 className="cardbody-header">{props.header}</h4>
 			</div>
 			<p className="cardbody-text">{props.description}</p>
-			<Button className="cardbody-btn">{props.button}</Button>
+			<button type="submit" className="cardbody-btn">
+				{props.button}
+			</button>
 		</div>
 	);
 };
