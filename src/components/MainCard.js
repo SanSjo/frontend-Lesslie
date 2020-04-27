@@ -44,7 +44,6 @@ export const MainCard = () => {
 									button="Integrationsguide"
 								/>
 							</div>
-
 							<Contact />
 						</div>
 					</section>

@@ -14,7 +14,6 @@ code {
 
 .wrapper {
 	background-color: #f1f5f9;
-	height: 800px;
-	font-family: helvetica;
+	font-family: 'Nunito Sans', sans-serif;
 	margin: 0;
 }
