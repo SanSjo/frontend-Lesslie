@@ -7,7 +7,7 @@
 	width: 100%;
 }
 .card-container {
-	margin-top: 10%;
+	margin-top: 5%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -114,7 +114,7 @@
 
 .cardbody-header {
 	border: 1px solid darkcyan;
-	background-color: darkcyan;
+	background-color: #279297;
 	color: white;
 	width: 60px;
 	height: 60px;

@@ -17,16 +17,18 @@ export const BurgerMenu = () => {
 
 export default BurgerMenu;
 
-const Span = styled.span``;
+const Span = styled.span`
+	background-color: white;
+`;
 const Burger1 = styled.span`
 	position: absolute;
-	height: 20%;
+	height: 15%;
 	left: 0px;
 	right: 0px;
 	top: 0%;
 	opacity: 1;
 	background-color: #373a47;
-	width: 70%;
+	width: 50%;
 
 	&:hover {
 		opacity: 0.6;
@@ -35,13 +37,13 @@ const Burger1 = styled.span`
 
 const Burger2 = styled.span`
 	position: absolute;
-	height: 20%;
+	height: 15%;
 	left: 0px;
 	right: 0px;
-	top: 40%;
+	top: 30%;
 	opacity: 1;
 	background-color: #373a47;
-	width: 90%;
+	width: 80%;
 
 	&:hover {
 		opacity: 0.6;
@@ -50,13 +52,13 @@ const Burger2 = styled.span`
 
 const Burger3 = styled.span`
 	position: absolute;
-	height: 20%;
+	height: 15%;
 	left: 0px;
 	right: 0px;
-	top: 80%;
+	top: 60%;
 	opacity: 1;
 	background-color: #373a47;
-	width: 70%;
+	width: 60%;
 
 	&:hover {
 		opacity: 0.6;
@@ -71,9 +73,11 @@ const Button = styled.button`
 	padding: 0px;
 	border: none;
 	font-size: 0px;
-	background-color: transparent;
+	background-color: white;
 	cursor: pointer;
 	opacity: 1;
+	height: 15%;
+	border: none;
 
 	&:hover {
 		opacity: 0.6;
@@ -82,13 +86,14 @@ const Button = styled.button`
 
 const BurgerContainer = styled.div`
 	position: relative;
-	width: 36px;
-	height: 15px;
+	width: 40px;
+	height: 20px;
 	left: 20px;
-	bottom: 20px;
-	z-index: 1000;
+	bottom: 0px;
+
 	opacity: 1;
-	color: green;
+	position: relative;
+	background-color: white;
 
 	&:hover {
 		color: green;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../styles/main-card.css';
 
@@ -9,9 +10,11 @@ export const Cardbody = props => {
 				<h4 className="cardbody-header">{props.header}</h4>
 			</div>
 			<p className="cardbody-text">{props.description}</p>
-			<button type="submit" className="cardbody-btn">
-				{props.button}
-			</button>
+			<Link to="/guide">
+				<button type="submit" className="cardbody-btn">
+					{props.button}
+				</button>
+			</Link>
 		</div>
 	);
 };

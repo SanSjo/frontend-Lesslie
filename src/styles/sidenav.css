@@ -7,18 +7,37 @@
 .menu-item-header {
 	font-size: 20px;
 	color: white;
-	padding: 20px;
+	padding: 15px;
 }
 
+.menu-item-header:focus {
+	outline: 0;
+}
+
+.menu-item-container:focus {
+	outline: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
 .menu-item {
 	font-size: 18px;
 	color: white;
-	width: 100%;
+	width: 257px;
+	background-color: #354052;
+	border: none;
+	text-align: left;
+	padding-left: 20%;
+	margin-bottom: 4%;
+}
+
+.menu-item:focus {
+	background: rgba(0, 0, 0, 0.233);
+	outline: 0;
 }
 
 .menu-item-container {
 	display: flex;
 	justify-content: flex-end;
 	width: 100%;
-	padding: 20px;
 }

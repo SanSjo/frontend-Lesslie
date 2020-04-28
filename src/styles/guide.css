@@ -1,0 +1,137 @@
+.guide-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f1f5f9;
+}
+
+.guide-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 5%;
+	margin: 5%;
+}
+
+.guide-card-one {
+	background: white;
+	width: 1000px;
+}
+
+.guide-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	width: 1000px;
+	margin: 5%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px rgba(211, 211, 211, 0.507);
+}
+
+.guide-card-six {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+
+	margin: 5%;
+}
+
+.guide-card-container-one {
+	display: flex;
+	flex-direction: row;
+}
+
+.guide-cardbody-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.guide-cardbody {
+	height: 150px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	padding: 10px;
+	margin: 5%;
+	background: white;
+	box-shadow: 2px 2px 4px lightgray;
+	border-radius: 5px;
+}
+
+.guide-cardbody-header-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+
+	width: 100%;
+	margin-right: 30px;
+	margin-top: -20px;
+}
+
+.guide-cardbody-header {
+	border: 1px solid darkcyan;
+	background-color: #279297;
+	color: white;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+	z-index: 10;
+	font-size: 30px;
+	box-shadow: 2px 2px 4px rgba(0, 139, 139, 0.603);
+}
+
+.guide-cardbody-text {
+	margin-top: 20%;
+	font-size: 18px;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+}
+
+.guide1-img {
+	width: 50%;
+}
+.guide-3 {
+	height: 200px;
+}
+
+@media (max-width: 600px) {
+	.guide-header {
+		width: 600px;
+	}
+	.header {
+		width: 400px;
+	}
+	.guide-card {
+		width: 400px;
+	}
+	.guide-cardbody {
+		width: 200px;
+	}
+
+	.guide-cardbody-text {
+		font-size: 14px;
+	}
+
+	.guide-3 {
+		width: 400px;
+		height: 150px;
+	}
+	.guide-img-3 {
+		width: 400px;
+	}
+}

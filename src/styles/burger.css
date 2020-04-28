@@ -1,0 +1,63 @@
+.burger-container {
+	position: relative;
+	width: 40px;
+	height: 20px;
+	left: 20px;
+	bottom: 0px;
+
+	opacity: 1;
+	position: relative;
+	background-color: white;
+}
+
+.span-burger {
+	background-color: white;
+}
+
+.burger-item1 {
+	position: absolute;
+	height: 10%;
+	left: 0px;
+	right: 0px;
+	top: 5%;
+	opacity: 1;
+	background-color: #373a47;
+	width: 5%;
+}
+
+.burger-item2 {
+	position: absolute;
+	height: 10%;
+	left: 0px;
+	right: 0px;
+	top: 20%;
+	opacity: 1;
+	background-color: #373a47;
+	width: 10%;
+}
+
+.burger-item3 {
+	position: absolute;
+	height: 10%;
+	left: 0px;
+	right: 0px;
+	top: 40%;
+	opacity: 1;
+	background-color: #373a47;
+	width: 8%;
+}
+
+.burger-button {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-size: 0px;
+	background-color: white;
+	cursor: pointer;
+	opacity: 1;
+	height: 15%;
+	border: none;
+}

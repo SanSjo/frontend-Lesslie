@@ -1,14 +1,4 @@
 import React from 'react';
-import {
-	Card,
-	Button,
-	CardHeader,
-	CardFooter,
-	CardBody,
-	CardTitle,
-	CardText,
-	Navbar
-} from 'reactstrap';
 import '../styles/main-card.css';
 import { Cardbody } from './Cardbody';
 import { Contact } from './Contact';

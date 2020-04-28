@@ -1,0 +1,45 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+
+	width: 100%;
+	background-color: white;
+	margin-top: 0;
+
+	height: 60px;
+	box-shadow: 2px 2px 10px rgba(211, 211, 211, 0.548);
+}
+
+.nav-item-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1%;
+	width: 150px;
+}
+
+.nav-flag-img {
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	margin-right: 20%;
+	margin-top: 2%;
+}
+
+.nav-item {
+	width: 100%;
+	margin-left: 10%;
+}
+
+.nav-item:hover {
+	color: #36999f;
+}
+
+@media (max-width: 600px) {
+	.nav-flag-img {
+		margin-right: 0;
+	}
+	.nav-item-container {
+		width: 100px;
+		margin-top: 10px;
+	}
+}
